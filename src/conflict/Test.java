@@ -5,7 +5,7 @@ package conflict;
 */
 
 public class Test {
-    public void conflictMethod() {
-
+    public void conflictMethod(String string) {
+        System.out.println("Java, " + string);
     }
 }
